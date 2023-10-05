@@ -1,0 +1,42 @@
+﻿
+
+<h1>view all products</h1>
+<br />
+<br />
+@if (TempData["success"] != null)
+{
+	<div class="alert alert-success" role="alert">
+		@TempData["success"]
+	</div>
+}
+@if (TempData["fail"] != null)
+{
+	<div class="alert alert-danger" role="alert">
+		@TempData["fail"]
+	</div>
+}
+<br />
+<a class="btn btn-dark" asp-area="Admin" asp-controller="Product" asp-action="Creat">creat new product</a>
+<table class="table text-center table-border">
+	<thead>
+		<th>Name</th>
+		<th>Description</th>
+		<th>Author</th>
+		<th>price</th>
+		<th>edit</th>
+		<th>Delete</th>
+	</thead>
+	<tbody>
+	@foreach(var item in ViewBag.products)
+	{
+		<tr>
+		<td>@item.Name</td>
+		<td>@item.Description</td>
+		<td>@item.Author</td>
+		<td>@item.Price</td>
+				<td> <a class="btn btn-secondary" asp-action="Edit" asp-area="Admin" asp-controller="Product" asp-route-id="@item.Id">Edit</a> </td>
+		<td> <a class="btn btn-danger" asp-action="Delete" asp-area="Admin" asp-controller="Product" asp-route-id="@item.Id" >Delete</a> </td>
+		</tr>
+	}	
+	</tbody>
+</table>

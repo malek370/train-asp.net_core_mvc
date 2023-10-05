@@ -1,0 +1,14 @@
+C:\Users\malek\Desktop\train_aspnetcore\c#\BOL\bin\Debug\net7.0\BOL.deps.json
+C:\Users\malek\Desktop\train_aspnetcore\c#\BOL\bin\Debug\net7.0\BOL.runtimeconfig.json
+C:\Users\malek\Desktop\train_aspnetcore\c#\BOL\bin\Debug\net7.0\BOL.dll
+C:\Users\malek\Desktop\train_aspnetcore\c#\BOL\bin\Debug\net7.0\BOL.pdb
+C:\Users\malek\Desktop\train_aspnetcore\c#\BOL\obj\Debug\net7.0\BOL.csproj.AssemblyReference.cache
+C:\Users\malek\Desktop\train_aspnetcore\c#\BOL\obj\Debug\net7.0\BOL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\malek\Desktop\train_aspnetcore\c#\BOL\obj\Debug\net7.0\BOL.AssemblyInfoInputs.cache
+C:\Users\malek\Desktop\train_aspnetcore\c#\BOL\obj\Debug\net7.0\BOL.AssemblyInfo.cs
+C:\Users\malek\Desktop\train_aspnetcore\c#\BOL\obj\Debug\net7.0\BOL.csproj.CoreCompileInputs.cache
+C:\Users\malek\Desktop\train_aspnetcore\c#\BOL\obj\Debug\net7.0\BOL.dll
+C:\Users\malek\Desktop\train_aspnetcore\c#\BOL\obj\Debug\net7.0\refint\BOL.dll
+C:\Users\malek\Desktop\train_aspnetcore\c#\BOL\obj\Debug\net7.0\BOL.pdb
+C:\Users\malek\Desktop\train_aspnetcore\c#\BOL\obj\Debug\net7.0\BOL.genruntimeconfig.cache
+C:\Users\malek\Desktop\train_aspnetcore\c#\BOL\obj\Debug\net7.0\ref\BOL.dll
