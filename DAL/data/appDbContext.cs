@@ -20,8 +20,8 @@ namespace WebApplication2.DAL.data
                 new Category{ Id="ADV".toId(),Name = "adventure", abb = "ADV", Description = "" }
                 );
             modelBuilder.Entity<Product>().HasData(
-                new Product{Id=1,Name="witcher",Description="a witcher search for his daughter",Price=30,Author="zlofzki"},
-                new Product { Id = 2, Name = "harry potter", Description = "test", Price = 30, Author = "ukien" }
+                new Product{Id=1,Name="witcher",Description="a witcher search for his daughter",Price=30,Author="zlofzki",CategoryId= "ACT".toId() },
+                new Product { Id = 2, Name = "harry potter", Description = "test", Price = 30, Author = "ukien" , CategoryId= "ADV".toId() }
 
                 );
             

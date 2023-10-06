@@ -11,8 +11,8 @@ using WebApplication2.DAL.data;
 namespace DAL.Migrations
 {
     [DbContext(typeof(appDbContext))]
-    [Migration("20231004145747_addProduct")]
-    partial class addProduct
+    [Migration("20231006165313_addcategorytoproducts1")]
+    partial class addcategorytoproducts1
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -36,6 +36,9 @@ namespace DAL.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("CategoryId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
@@ -48,6 +51,8 @@ namespace DAL.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("CategoryId");
+
                     b.ToTable("products");
 
                     b.HasData(
@@ -55,6 +60,7 @@ namespace DAL.Migrations
                         {
                             Id = 1,
                             Author = "zlofzki",
+                            CategoryId = 656784,
                             Description = "a witcher search for his daughter",
                             Name = "witcher",
                             Price = 30f
@@ -63,6 +69,7 @@ namespace DAL.Migrations
                         {
                             Id = 2,
                             Author = "ukien",
+                            CategoryId = 656886,
                             Description = "test",
                             Name = "harry potter",
                             Price = 30f
@@ -105,6 +112,17 @@ namespace DAL.Migrations
                             Name = "adventure",
                             abb = "ADV"
                         });
+                });
+
+            modelBuilder.Entity("BOL.Models.Product", b =>
+                {
+                    b.HasOne("WebApplication2.BOL.Models.Category", "Category")
+                        .WithMany()
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Category");
                 });
 #pragma warning restore 612, 618
         }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\malek\\Desktop\\train_aspnetcore\\c#\\BOL\\BOL.csproj": {}
+    "C:\\Users\\malek\\Desktop\\train_aspnetcore\\project\\BOL\\BOL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\malek\\Desktop\\train_aspnetcore\\c#\\BOL\\BOL.csproj": {
+    "C:\\Users\\malek\\Desktop\\train_aspnetcore\\project\\BOL\\BOL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\malek\\Desktop\\train_aspnetcore\\c#\\BOL\\BOL.csproj",
+        "projectUniqueName": "C:\\Users\\malek\\Desktop\\train_aspnetcore\\project\\BOL\\BOL.csproj",
         "projectName": "BOL",
-        "projectPath": "C:\\Users\\malek\\Desktop\\train_aspnetcore\\c#\\BOL\\BOL.csproj",
+        "projectPath": "C:\\Users\\malek\\Desktop\\train_aspnetcore\\project\\BOL\\BOL.csproj",
         "packagesPath": "C:\\Users\\malek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\malek\\Desktop\\train_aspnetcore\\c#\\BOL\\obj\\",
+        "outputPath": "C:\\Users\\malek\\Desktop\\train_aspnetcore\\project\\BOL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\malek\\AppData\\Roaming\\NuGet\\NuGet.Config",

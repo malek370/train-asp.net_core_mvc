@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\malek\\Desktop\\train_aspnetcore\\c#\\Utilities\\Utilities.csproj": {}
+    "C:\\Users\\malek\\Desktop\\train_aspnetcore\\project\\Utilities\\Utilities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\malek\\Desktop\\train_aspnetcore\\c#\\Utilities\\Utilities.csproj": {
+    "C:\\Users\\malek\\Desktop\\train_aspnetcore\\project\\Utilities\\Utilities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\malek\\Desktop\\train_aspnetcore\\c#\\Utilities\\Utilities.csproj",
+        "projectUniqueName": "C:\\Users\\malek\\Desktop\\train_aspnetcore\\project\\Utilities\\Utilities.csproj",
         "projectName": "Utilities",
-        "projectPath": "C:\\Users\\malek\\Desktop\\train_aspnetcore\\c#\\Utilities\\Utilities.csproj",
+        "projectPath": "C:\\Users\\malek\\Desktop\\train_aspnetcore\\project\\Utilities\\Utilities.csproj",
         "packagesPath": "C:\\Users\\malek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\malek\\Desktop\\train_aspnetcore\\c#\\Utilities\\obj\\",
+        "outputPath": "C:\\Users\\malek\\Desktop\\train_aspnetcore\\project\\Utilities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\malek\\AppData\\Roaming\\NuGet\\NuGet.Config",

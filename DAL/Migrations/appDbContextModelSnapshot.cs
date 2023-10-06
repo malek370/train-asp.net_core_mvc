@@ -33,6 +33,9 @@ namespace DAL.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("CategoryId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
@@ -45,6 +48,8 @@ namespace DAL.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("CategoryId");
+
                     b.ToTable("products");
 
                     b.HasData(
@@ -52,6 +57,7 @@ namespace DAL.Migrations
                         {
                             Id = 1,
                             Author = "zlofzki",
+                            CategoryId = 656784,
                             Description = "a witcher search for his daughter",
                             Name = "witcher",
                             Price = 30f
@@ -60,6 +66,7 @@ namespace DAL.Migrations
                         {
                             Id = 2,
                             Author = "ukien",
+                            CategoryId = 656886,
                             Description = "test",
                             Name = "harry potter",
                             Price = 30f
@@ -102,6 +109,17 @@ namespace DAL.Migrations
                             Name = "adventure",
                             abb = "ADV"
                         });
+                });
+
+            modelBuilder.Entity("BOL.Models.Product", b =>
+                {
+                    b.HasOne("WebApplication2.BOL.Models.Category", "Category")
+                        .WithMany()
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Category");
                 });
 #pragma warning restore 612, 618
         }

@@ -8,16 +8,19 @@ namespace WebApplication2.Areas.Admin.Controllers
     public class ProductController : Controller
     {
         protected readonly IProdRepository _products;
-        public ProductController(IProdRepository products)
+        protected readonly ICatRepository _categories;
+        public ProductController(IProdRepository products , ICatRepository categories)
         {
             _products = products;
+            _categories = categories;
         }
 
         public IActionResult Index()
         {
             var prods = _products.GetAll();
-            ViewBag.Products = prods;
-            return View();
+            var cc = _categories.GetItems();
+			ViewBag.cats = cc;
+			return View(prods);
         }
         public IActionResult Creat()
         {

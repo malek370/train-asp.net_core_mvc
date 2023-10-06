@@ -7,7 +7,7 @@
 namespace DAL.Migrations
 {
     /// <inheritdoc />
-    public partial class addProduct : Migration
+    public partial class addcategorytoproducts1 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -35,11 +35,18 @@ namespace DAL.Migrations
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Author = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Price = table.Column<float>(type: "real", nullable: false)
+                    Price = table.Column<float>(type: "real", nullable: false),
+                    CategoryId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_products", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_products_categories_CategoryId",
+                        column: x => x.CategoryId,
+                        principalTable: "categories",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.InsertData(
@@ -53,22 +60,27 @@ namespace DAL.Migrations
 
             migrationBuilder.InsertData(
                 table: "products",
-                columns: new[] { "Id", "Author", "Description", "Name", "Price" },
+                columns: new[] { "Id", "Author", "CategoryId", "Description", "Name", "Price" },
                 values: new object[,]
                 {
-                    { 1, "zlofzki", "a witcher search for his daughter", "witcher", 30f },
-                    { 2, "ukien", "test", "harry potter", 30f }
+                    { 1, "zlofzki", 656784, "a witcher search for his daughter", "witcher", 30f },
+                    { 2, "ukien", 656886, "test", "harry potter", 30f }
                 });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_products_CategoryId",
+                table: "products",
+                column: "CategoryId");
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "categories");
+                name: "products");
 
             migrationBuilder.DropTable(
-                name: "products");
+                name: "categories");
         }
     }
 }

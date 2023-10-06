@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\malek\\Desktop\\train_aspnetcore\\c#\\DAL\\DAL.csproj": {}
+    "C:\\Users\\malek\\Desktop\\train_aspnetcore\\project\\DAL\\DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\malek\\Desktop\\train_aspnetcore\\c#\\BOL\\BOL.csproj": {
+    "C:\\Users\\malek\\Desktop\\train_aspnetcore\\project\\BOL\\BOL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\malek\\Desktop\\train_aspnetcore\\c#\\BOL\\BOL.csproj",
+        "projectUniqueName": "C:\\Users\\malek\\Desktop\\train_aspnetcore\\project\\BOL\\BOL.csproj",
         "projectName": "BOL",
-        "projectPath": "C:\\Users\\malek\\Desktop\\train_aspnetcore\\c#\\BOL\\BOL.csproj",
+        "projectPath": "C:\\Users\\malek\\Desktop\\train_aspnetcore\\project\\BOL\\BOL.csproj",
         "packagesPath": "C:\\Users\\malek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\malek\\Desktop\\train_aspnetcore\\c#\\BOL\\obj\\",
+        "outputPath": "C:\\Users\\malek\\Desktop\\train_aspnetcore\\project\\BOL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\malek\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -75,14 +75,14 @@
         }
       }
     },
-    "C:\\Users\\malek\\Desktop\\train_aspnetcore\\c#\\DAL\\DAL.csproj": {
+    "C:\\Users\\malek\\Desktop\\train_aspnetcore\\project\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\malek\\Desktop\\train_aspnetcore\\c#\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\malek\\Desktop\\train_aspnetcore\\project\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\malek\\Desktop\\train_aspnetcore\\c#\\DAL\\DAL.csproj",
+        "projectPath": "C:\\Users\\malek\\Desktop\\train_aspnetcore\\project\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\malek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\malek\\Desktop\\train_aspnetcore\\c#\\DAL\\obj\\",
+        "outputPath": "C:\\Users\\malek\\Desktop\\train_aspnetcore\\project\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\malek\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -99,11 +99,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\malek\\Desktop\\train_aspnetcore\\c#\\BOL\\BOL.csproj": {
-                "projectPath": "C:\\Users\\malek\\Desktop\\train_aspnetcore\\c#\\BOL\\BOL.csproj"
+              "C:\\Users\\malek\\Desktop\\train_aspnetcore\\project\\BOL\\BOL.csproj": {
+                "projectPath": "C:\\Users\\malek\\Desktop\\train_aspnetcore\\project\\BOL\\BOL.csproj"
               },
-              "C:\\Users\\malek\\Desktop\\train_aspnetcore\\c#\\Utilities\\Utilities.csproj": {
-                "projectPath": "C:\\Users\\malek\\Desktop\\train_aspnetcore\\c#\\Utilities\\Utilities.csproj"
+              "C:\\Users\\malek\\Desktop\\train_aspnetcore\\project\\Utilities\\Utilities.csproj": {
+                "projectPath": "C:\\Users\\malek\\Desktop\\train_aspnetcore\\project\\Utilities\\Utilities.csproj"
               }
             }
           }
@@ -118,6 +118,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNet.Mvc": {
+              "target": "Package",
+              "version": "[5.2.9, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.11, )"
@@ -153,14 +157,14 @@
         }
       }
     },
-    "C:\\Users\\malek\\Desktop\\train_aspnetcore\\c#\\Utilities\\Utilities.csproj": {
+    "C:\\Users\\malek\\Desktop\\train_aspnetcore\\project\\Utilities\\Utilities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\malek\\Desktop\\train_aspnetcore\\c#\\Utilities\\Utilities.csproj",
+        "projectUniqueName": "C:\\Users\\malek\\Desktop\\train_aspnetcore\\project\\Utilities\\Utilities.csproj",
         "projectName": "Utilities",
-        "projectPath": "C:\\Users\\malek\\Desktop\\train_aspnetcore\\c#\\Utilities\\Utilities.csproj",
+        "projectPath": "C:\\Users\\malek\\Desktop\\train_aspnetcore\\project\\Utilities\\Utilities.csproj",
         "packagesPath": "C:\\Users\\malek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\malek\\Desktop\\train_aspnetcore\\c#\\Utilities\\obj\\",
+        "outputPath": "C:\\Users\\malek\\Desktop\\train_aspnetcore\\project\\Utilities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\malek\\AppData\\Roaming\\NuGet\\NuGet.Config",

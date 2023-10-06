@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web.Mvc;
 using WebApplication2.BOL.Models;
 using WebApplication2.DAL.data;
 
@@ -65,6 +66,14 @@ namespace DAL.Repositories
 				return true;
 			}
 			catch { return false; }
+		}
+		//get paires < id , name >
+		public Dictionary<int,string> GetItems()
+		{
+			var categories= GetAll().ToList();
+			Dictionary < int,string> items= new Dictionary<int,string>();
+			foreach (var cat in categories) { items[cat.Id] = cat.Name; }
+			return items;
 		}
 	}
 }
