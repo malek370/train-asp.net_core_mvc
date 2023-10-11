@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Web.Mvc;
+
 using WebApplication2.BOL.Models;
 using WebApplication2.DAL.data;
 
@@ -75,5 +75,7 @@ namespace DAL.Repositories
 			foreach (var cat in categories) { items[cat.Id] = cat.Name; }
 			return items;
 		}
+
+		
 	}
 }

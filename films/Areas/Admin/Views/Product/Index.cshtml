@@ -16,7 +16,7 @@
 	</div>
 }
 <br />
-<a class="btn btn-dark" asp-area="Admin" asp-controller="Product" asp-action="Creat">creat new product</a>
+<a class="btn btn-dark" asp-area="Admin" asp-controller="Product" asp-action="Upsert">creat new product</a>
 <table class="table text-center table-border">
 	<thead>
 		<th>Name</th>
@@ -37,7 +37,7 @@
 		<td>@item.Author</td>
 		<td>@cats[item.CategoryId]</td>
 		<td>@item.Price</td>
-				<td> <a class="btn btn-secondary" asp-action="Edit" asp-area="Admin" asp-controller="Product" asp-route-id="@item.Id">Edit</a> </td>
+				<td> <a class="btn btn-secondary" asp-action="Upsert" asp-area="Admin" asp-controller="Product" asp-route-id="@item.Id">Edit</a> </td>
 		<td> <a class="btn btn-danger" asp-action="Delete" asp-area="Admin" asp-controller="Product" asp-route-id="@item.Id" >Delete</a> </td>
 		</tr>
 	}	

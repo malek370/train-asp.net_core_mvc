@@ -598,3 +598,4 @@ C:\Users\malek\Desktop\train_aspnetcore\project\films\bin\Debug\net7.0\System.We
 C:\Users\malek\Desktop\train_aspnetcore\project\films\bin\Debug\net7.0\System.Web.WebPages.Razor.dll
 C:\Users\malek\Desktop\train_aspnetcore\project\films\bin\Debug\net7.0\System.Web.WebPages.dll
 C:\Users\malek\Desktop\train_aspnetcore\project\films\bin\Debug\net7.0\Microsoft.Web.Infrastructure.dll
+C:\Users\malek\Desktop\train_aspnetcore\project\films\obj\Debug\net7.0\WebApplication2.MvcApplicationPartsAssemblyInfo.cs

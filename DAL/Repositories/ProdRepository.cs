@@ -23,7 +23,9 @@ namespace DAL.Repositories
             try
             {
                 appdb.products.Add(item);
+                Save();
                 return true;
+
             }
             catch { return false; }
         }
@@ -60,12 +62,26 @@ namespace DAL.Repositories
 
         public bool Update(Product prod)
         {
-            try
-            {
-                appdb.products.Update(prod);
+            
+                var objDb=appdb.products.Find(prod.Id);
+                if (objDb != null)
+                {
+                    objDb.Id = prod.Id;
+                    objDb.Name= prod.Name;
+                    objDb.Description= prod.Description;
+                    objDb.Price= prod.Price;
+                    objDb.CategoryId= prod.CategoryId;
+                    objDb.Category=prod.Category;
+                    if(prod.imgURL != null) { objDb.imgURL= prod.imgURL; }
+                appdb.products.Update(objDb);
+				Save();
                 return true;
-            }
-            catch { return false; }
+			    } 
+                
+            return false;
+				
+			
+            
         }
     }
 }

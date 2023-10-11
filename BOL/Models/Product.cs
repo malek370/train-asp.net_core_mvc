@@ -22,9 +22,10 @@ namespace BOL.Models
         [Required]
         [Range(10,1000)]
         public float Price { set; get; }
-        [Required]
         public int CategoryId { get; set; }
         [ForeignKey(nameof(CategoryId))]
-        public Category Category { get; set; }
+        public Category? Category { get; set; }
+        [Display(Name ="product image")]
+        public string? imgURL { get; set; }
     }
 }

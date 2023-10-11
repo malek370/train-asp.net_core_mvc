@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\films"
+    "\\films",
+    "\\films\\Areas",
+    "\\films\\Areas\\Admin",
+    "\\films\\Areas\\Admin\\Views"
   ],
   "SelectedNode": "\\films\\WebApplication2.sln",
   "PreviewInSolutionExplorer": false

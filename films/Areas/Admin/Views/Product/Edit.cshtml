@@ -1,21 +1,25 @@
 ﻿@model Product
 <h1> Update product @Model.Name</h1>
 
-<form class="form-control" method="post">
-	<label asp-for="@Model.Name"></label>
-	<input asp-for="@Model.Name" /><br />
-	<span asp-validation-for="@Model.Name" class="alert-danger"></span><br />
-	<label asp-for="@Model.Description"></label>
-	<input asp-for="@Model.Description" /><br />
-	<span asp-validation-for="@Model.Description" class="alert-danger"></span><br />
-	<label asp-for="@Model.Author"></label>
-	<input asp-for="@Model.Author" /><br />
-	<span asp-validation-for="@Model.Author" class="alert-danger"></span><br />
-	<label asp-for="@Model.Price"></label>
-	<input asp-for="@Model.Price" /><br />
-	<span asp-validation-for="@Model.Price" class="alert-danger"></span><br />
 
-	<button type="submit" class="btn btn-dark bg-dark">Update</button>
-	<a class="btn btn-secondary" asp-area="Admin" asp-controller="Product" asp-action="Index">back to Categories</a>
-
-</form>
+	<form class="form-control" method="post">
+	<div class="col-8">
+		<label asp-for="@Model.Name"></label>
+		<input asp-for="@Model.Name" /><br />
+		<span asp-validation-for="@Model.Name" class="alert-danger"></span><br />
+		<label asp-for="@Model.Description"></label>
+		<input asp-for="@Model.Description" /><br />
+		<span asp-validation-for="@Model.Description" class="alert-danger"></span><br />
+		<label asp-for="@Model.Author"></label>
+		<input asp-for="@Model.Author" /><br />
+		<span asp-validation-for="@Model.Author" class="alert-danger"></span><br />
+		<label asp-for="@Model.Price"></label>
+		<input asp-for="@Model.Price" /><br />
+		<span asp-validation-for="@Model.Price" class="alert-danger"></span><br />
+		<button type="submit" class="btn btn-dark bg-dark">Update</button>
+		<a class="btn btn-secondary" asp-area="Admin" asp-controller="Product" asp-action="Index">back to Categories</a>
+	</div>
+	<div class="col-4">
+		<img src="@Model.imgURL" alt="product image" class="img-thumbnail"> 
+	</div>
+	</form>
