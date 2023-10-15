@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using DAL.Repositories.Irepositories;
 using DAL.Repositories;
 using WebApplication2.BOL.Models;
+using Microsoft.AspNetCore.Identity;
 
 namespace WebApplication2
 {
@@ -15,13 +16,16 @@ namespace WebApplication2
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddRazorPages();
             builder.Services.AddDbContext<appDbContext>(
             options => options.UseSqlServer("name=ConnectionStrings:DefaultConnection"));
+            builder.Services.AddDefaultIdentity<IdentityUser>().
+                AddEntityFrameworkStores<appDbContext>();
             builder.Services.AddScoped<ICatRepository, CatRepositry>();
             builder.Services.AddScoped<IProdRepository, ProdRepository>();
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
+            //Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
             {
                 app.UseExceptionHandler("/Home/Error");
@@ -32,14 +36,14 @@ namespace WebApplication2
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            app.UseAuthentication();
             app.UseAuthorization();
-
+            
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}");
-
-            app.Run();
+			app.MapRazorPages();
+			app.Run();
         }
     }
 }

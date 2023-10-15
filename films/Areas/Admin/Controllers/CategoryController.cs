@@ -8,6 +8,7 @@ using DAL.Repositories.Irepositories;
 
 namespace WebApplication2.Areas.Admin.Controllers
 {
+    [Area("Admin")]
     public class CategoryController : Controller
     {
         private readonly ICatRepository _category;

@@ -1,11 +1,13 @@
 ﻿using BOL.Models;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 //using Microsoft.AspNetCore;
 using WebApplication2.BOL.Models;
 using WebApplication2.Utilities;
 namespace WebApplication2.DAL.data
 {
-    public class appDbContext:DbContext
+    public class appDbContext:IdentityDbContext<IdentityUser>
     {
         public appDbContext(DbContextOptions<appDbContext> options) : base(options) { }
         public DbSet<Category> categories { set; get; }

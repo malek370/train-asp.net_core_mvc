@@ -10,6 +10,7 @@ using WebApplication2.BOL.Models;
 //using System.Web.Mvc;
 namespace WebApplication2.Areas.Admin.Controllers
 {
+    [Area("Admin")]
     public class ProductController : Controller
     {
         protected readonly IProdRepository _products;
