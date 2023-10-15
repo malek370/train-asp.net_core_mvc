@@ -1,5 +1,6 @@
 ﻿using BOL.Models;
 using DAL.Repositories.Irepositories;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -62,22 +63,17 @@ namespace DAL.Repositories
 
         public bool Update(Product prod)
         {
-            
-                var objDb=appdb.products.Find(prod.Id);
-                if (objDb != null)
-                {
-                    objDb.Id = prod.Id;
-                    objDb.Name= prod.Name;
-                    objDb.Description= prod.Description;
-                    objDb.Price= prod.Price;
-                    objDb.CategoryId= prod.CategoryId;
-                    objDb.Category=prod.Category;
-                    if(prod.imgURL != null) { objDb.imgURL= prod.imgURL; }
-                appdb.products.Update(objDb);
-				Save();
-                return true;
-			    } 
-                
+            var prodDb=appdb.products.Find(prod.Id);
+            prodDb.Name=prod.Name;
+            prodDb.Description=prod.Description;
+            prodDb.Price=prod.Price;
+            prodDb.Author=prod.Author;
+            prodDb.CategoryId=prod.CategoryId;
+            prodDb.Category=prod.Category;
+            if(prod.imgURL!=null) { prodDb.imgURL = prod.imgURL; }
+            appdb.products.Entry(prodDb).State=EntityState.Modified;
+            /*appdb.products.Update(prod);*/
+            Save();
             return false;
 				
 			

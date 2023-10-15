@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "EbsiwHlqp5iSugFASAkvoxj0jPkNIfV91phBfVluGZEQ5GhVyfLQZAxi0SGC/4RffeqzuLm6y38TNkow2Z0Qig==",
+  "dgSpecHash": "zbhMSgctjhY/kTpM+xSv8tmAxZoFhYgHUMkMqen+l/1pTbP6UoLYAm08bL8m80QLX4cXpqp0KcOXoPpv96iNDw==",
   "success": true,
   "projectFilePath": "C:\\Users\\malek\\Desktop\\train_aspnetcore\\project\\films\\WebApplication2.csproj",
   "expectedPackageFiles": [
@@ -56,9 +56,6 @@
     "C:\\Users\\malek\\.nuget\\packages\\humanizer.core.zh-cn\\2.14.1\\humanizer.core.zh-cn.2.14.1.nupkg.sha512",
     "C:\\Users\\malek\\.nuget\\packages\\humanizer.core.zh-hans\\2.14.1\\humanizer.core.zh-hans.2.14.1.nupkg.sha512",
     "C:\\Users\\malek\\.nuget\\packages\\humanizer.core.zh-hant\\2.14.1\\humanizer.core.zh-hant.2.14.1.nupkg.sha512",
-    "C:\\Users\\malek\\.nuget\\packages\\microsoft.aspnet.mvc\\5.2.9\\microsoft.aspnet.mvc.5.2.9.nupkg.sha512",
-    "C:\\Users\\malek\\.nuget\\packages\\microsoft.aspnet.razor\\3.2.9\\microsoft.aspnet.razor.3.2.9.nupkg.sha512",
-    "C:\\Users\\malek\\.nuget\\packages\\microsoft.aspnet.webpages\\3.2.9\\microsoft.aspnet.webpages.3.2.9.nupkg.sha512",
     "C:\\Users\\malek\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\malek\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
     "C:\\Users\\malek\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",
@@ -135,7 +132,6 @@
     "C:\\Users\\malek\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.templating\\7.0.9\\microsoft.visualstudio.web.codegeneration.templating.7.0.9.nupkg.sha512",
     "C:\\Users\\malek\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.utils\\7.0.9\\microsoft.visualstudio.web.codegeneration.utils.7.0.9.nupkg.sha512",
     "C:\\Users\\malek\\.nuget\\packages\\microsoft.visualstudio.web.codegenerators.mvc\\7.0.9\\microsoft.visualstudio.web.codegenerators.mvc.7.0.9.nupkg.sha512",
-    "C:\\Users\\malek\\.nuget\\packages\\microsoft.web.infrastructure\\1.0.0\\microsoft.web.infrastructure.1.0.0.nupkg.sha512",
     "C:\\Users\\malek\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\malek\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\malek\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
@@ -251,46 +247,5 @@
     "C:\\Users\\malek\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\malek\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Le package 'Microsoft.AspNet.Mvc 5.2.9' a été restauré en utilisant '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' au lieu du framework cible du projet 'net7.0'. Ce package n'est peut-être pas totalement compatible avec votre projet.",
-      "libraryId": "Microsoft.AspNet.Mvc",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Le package 'Microsoft.AspNet.Razor 3.2.9' a été restauré en utilisant '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' au lieu du framework cible du projet 'net7.0'. Ce package n'est peut-être pas totalement compatible avec votre projet.",
-      "libraryId": "Microsoft.AspNet.Razor",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Le package 'Microsoft.AspNet.WebPages 3.2.9' a été restauré en utilisant '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' au lieu du framework cible du projet 'net7.0'. Ce package n'est peut-être pas totalement compatible avec votre projet.",
-      "libraryId": "Microsoft.AspNet.WebPages",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Le package 'Microsoft.Web.Infrastructure 1.0.0' a été restauré en utilisant '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' au lieu du framework cible du projet 'net7.0'. Ce package n'est peut-être pas totalement compatible avec votre projet.",
-      "libraryId": "Microsoft.Web.Infrastructure",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  "logs": []
 }

@@ -46,7 +46,7 @@ namespace WebApplication2.Areas.Admin.Controllers
         public IActionResult Upsert(Product product,IFormFile? file)
         {
 			var cats = _categories.GetItems();
-
+            string action = "";
 			if (!cats.Keys.ToList().Contains(product.CategoryId))
             {
                 ModelState.AddModelError("CategoryId", "give an existing category");
@@ -71,10 +71,10 @@ namespace WebApplication2.Areas.Admin.Controllers
                     product.imgURL = Path.Combine(@"\img\prod", filename);
 
 				}
-                if (product.Id == 0) { _products.Add(product); }
-                else { _products.Update(product); }
+                if (product.Id == 0) { _products.Add(product); action = "created"; }
+                else { _products.Update(product); action = "updated"; }
                 
-                TempData["success"] = $"Product {product.Name} created or updated";
+                TempData["success"] = $"Product {product.Name} {action}";
                 return RedirectToAction("Index");
             }
             ViewBag.cats = cats; 
