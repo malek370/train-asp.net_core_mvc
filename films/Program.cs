@@ -22,7 +22,7 @@ namespace WebApplication2
             builder.Services.AddDbContext<appDbContext>(
             options => options.UseSqlServer("name=ConnectionStrings:DefaultConnection"));
             builder.Services.AddIdentity<IdentityUser, IdentityRole>().
-                AddEntityFrameworkStores<appDbContext>();
+                AddEntityFrameworkStores<appDbContext>().AddDefaultTokenProviders();
             builder.Services.AddScoped<ICatRepository, CatRepositry>();
             builder.Services.AddScoped<IEmailSender,EmailSender>();
             builder.Services.AddScoped<IProdRepository, ProdRepository>();
