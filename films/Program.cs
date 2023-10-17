@@ -5,6 +5,8 @@ using DAL.Repositories.Irepositories;
 using DAL.Repositories;
 using WebApplication2.BOL.Models;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
+using Utilities;
 
 namespace WebApplication2
 {
@@ -19,9 +21,10 @@ namespace WebApplication2
             builder.Services.AddRazorPages();
             builder.Services.AddDbContext<appDbContext>(
             options => options.UseSqlServer("name=ConnectionStrings:DefaultConnection"));
-            builder.Services.AddDefaultIdentity<IdentityUser>().
+            builder.Services.AddIdentity<IdentityUser, IdentityRole>().
                 AddEntityFrameworkStores<appDbContext>();
             builder.Services.AddScoped<ICatRepository, CatRepositry>();
+            builder.Services.AddScoped<IEmailSender,EmailSender>();
             builder.Services.AddScoped<IProdRepository, ProdRepository>();
             var app = builder.Build();
 
