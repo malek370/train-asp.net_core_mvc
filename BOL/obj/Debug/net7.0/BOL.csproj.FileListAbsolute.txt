@@ -26,3 +26,17 @@ C:\Users\malek\Desktop\train_aspnetcore\project\BOL\obj\Debug\net7.0\refint\BOL.
 C:\Users\malek\Desktop\train_aspnetcore\project\BOL\obj\Debug\net7.0\BOL.pdb
 C:\Users\malek\Desktop\train_aspnetcore\project\BOL\obj\Debug\net7.0\BOL.genruntimeconfig.cache
 C:\Users\malek\Desktop\train_aspnetcore\project\BOL\obj\Debug\net7.0\ref\BOL.dll
+C:\Users\mbokri\OneDrive - Sopra Steria\Desktop\DEV\train-asp.net_core_mvc\BOL\bin\Debug\net7.0\BOL.deps.json
+C:\Users\mbokri\OneDrive - Sopra Steria\Desktop\DEV\train-asp.net_core_mvc\BOL\bin\Debug\net7.0\BOL.runtimeconfig.json
+C:\Users\mbokri\OneDrive - Sopra Steria\Desktop\DEV\train-asp.net_core_mvc\BOL\bin\Debug\net7.0\BOL.dll
+C:\Users\mbokri\OneDrive - Sopra Steria\Desktop\DEV\train-asp.net_core_mvc\BOL\bin\Debug\net7.0\BOL.pdb
+C:\Users\mbokri\OneDrive - Sopra Steria\Desktop\DEV\train-asp.net_core_mvc\BOL\obj\Debug\net7.0\BOL.csproj.AssemblyReference.cache
+C:\Users\mbokri\OneDrive - Sopra Steria\Desktop\DEV\train-asp.net_core_mvc\BOL\obj\Debug\net7.0\BOL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mbokri\OneDrive - Sopra Steria\Desktop\DEV\train-asp.net_core_mvc\BOL\obj\Debug\net7.0\BOL.AssemblyInfoInputs.cache
+C:\Users\mbokri\OneDrive - Sopra Steria\Desktop\DEV\train-asp.net_core_mvc\BOL\obj\Debug\net7.0\BOL.AssemblyInfo.cs
+C:\Users\mbokri\OneDrive - Sopra Steria\Desktop\DEV\train-asp.net_core_mvc\BOL\obj\Debug\net7.0\BOL.csproj.CoreCompileInputs.cache
+C:\Users\mbokri\OneDrive - Sopra Steria\Desktop\DEV\train-asp.net_core_mvc\BOL\obj\Debug\net7.0\BOL.dll
+C:\Users\mbokri\OneDrive - Sopra Steria\Desktop\DEV\train-asp.net_core_mvc\BOL\obj\Debug\net7.0\refint\BOL.dll
+C:\Users\mbokri\OneDrive - Sopra Steria\Desktop\DEV\train-asp.net_core_mvc\BOL\obj\Debug\net7.0\BOL.pdb
+C:\Users\mbokri\OneDrive - Sopra Steria\Desktop\DEV\train-asp.net_core_mvc\BOL\obj\Debug\net7.0\BOL.genruntimeconfig.cache
+C:\Users\mbokri\OneDrive - Sopra Steria\Desktop\DEV\train-asp.net_core_mvc\BOL\obj\Debug\net7.0\ref\BOL.dll

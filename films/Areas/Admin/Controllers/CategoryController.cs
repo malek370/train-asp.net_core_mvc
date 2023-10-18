@@ -5,10 +5,13 @@ using WebApplication2.BOL.Models;
 using Microsoft.EntityFrameworkCore;
 using WebApplication2.Utilities;
 using DAL.Repositories.Irepositories;
+using Microsoft.AspNetCore.Authorization;
+using Utilities;
 
 namespace WebApplication2.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles =SD.Admin)]
     public class CategoryController : Controller
     {
         private readonly ICatRepository _category;

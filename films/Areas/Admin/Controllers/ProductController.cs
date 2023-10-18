@@ -1,16 +1,19 @@
 ﻿using BOL.Models;
 using BOL.ModelViews;
 using DAL.Repositories.Irepositories;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.CodeAnalysis.Elfie.Serialization;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Microsoft.IdentityModel.Tokens;
+using Utilities;
 using WebApplication2.BOL.Models;
 //using System.Web.Mvc;
 namespace WebApplication2.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = SD.Admin)]
     public class ProductController : Controller
     {
         protected readonly IProdRepository _products;

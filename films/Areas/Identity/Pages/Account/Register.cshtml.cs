@@ -111,7 +111,7 @@ namespace WebApplication2.Areas.Identity.Pages.Account
             {
                 _roleManager.CreateAsync(new IdentityRole(SD.Admin)).GetAwaiter().GetResult();
 				_roleManager.CreateAsync(new IdentityRole(SD.Customer)).GetAwaiter().GetResult();
-
+                
 			}*/
 			ReturnUrl = returnUrl;
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
@@ -131,6 +131,7 @@ namespace WebApplication2.Areas.Identity.Pages.Account
 
                 if (result.Succeeded)
                 {
+                    await _userManager.AddToRoleAsync(user, SD.Customer);
                     _logger.LogInformation("User created a new account with password.");
 
                     var userId = await _userManager.GetUserIdAsync(user);

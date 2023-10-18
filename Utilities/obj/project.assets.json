@@ -757,19 +757,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\malek\\.nuget\\packages\\": {}
+    "C:\\Users\\mbokri\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\malek\\Desktop\\train_aspnetcore\\project\\Utilities\\Utilities.csproj",
+      "projectUniqueName": "C:\\Users\\mbokri\\OneDrive - Sopra Steria\\Desktop\\DEV\\train-asp.net_core_mvc\\Utilities\\Utilities.csproj",
       "projectName": "Utilities",
-      "projectPath": "C:\\Users\\malek\\Desktop\\train_aspnetcore\\project\\Utilities\\Utilities.csproj",
-      "packagesPath": "C:\\Users\\malek\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\malek\\Desktop\\train_aspnetcore\\project\\Utilities\\obj\\",
+      "projectPath": "C:\\Users\\mbokri\\OneDrive - Sopra Steria\\Desktop\\DEV\\train-asp.net_core_mvc\\Utilities\\Utilities.csproj",
+      "packagesPath": "C:\\Users\\mbokri\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mbokri\\OneDrive - Sopra Steria\\Desktop\\DEV\\train-asp.net_core_mvc\\Utilities\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\malek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mbokri\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

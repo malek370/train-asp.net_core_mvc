@@ -21,3 +21,15 @@ C:\Users\malek\Desktop\train_aspnetcore\project\Utilities\obj\Debug\net7.0\refin
 C:\Users\malek\Desktop\train_aspnetcore\project\Utilities\obj\Debug\net7.0\Utilities.pdb
 C:\Users\malek\Desktop\train_aspnetcore\project\Utilities\obj\Debug\net7.0\ref\Utilities.dll
 C:\Users\malek\Desktop\train_aspnetcore\project\Utilities\obj\Debug\net7.0\Utilities.csproj.AssemblyReference.cache
+C:\Users\mbokri\OneDrive - Sopra Steria\Desktop\DEV\train-asp.net_core_mvc\Utilities\bin\Debug\net7.0\Utilities.deps.json
+C:\Users\mbokri\OneDrive - Sopra Steria\Desktop\DEV\train-asp.net_core_mvc\Utilities\bin\Debug\net7.0\Utilities.dll
+C:\Users\mbokri\OneDrive - Sopra Steria\Desktop\DEV\train-asp.net_core_mvc\Utilities\bin\Debug\net7.0\Utilities.pdb
+C:\Users\mbokri\OneDrive - Sopra Steria\Desktop\DEV\train-asp.net_core_mvc\Utilities\obj\Debug\net7.0\Utilities.csproj.AssemblyReference.cache
+C:\Users\mbokri\OneDrive - Sopra Steria\Desktop\DEV\train-asp.net_core_mvc\Utilities\obj\Debug\net7.0\Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mbokri\OneDrive - Sopra Steria\Desktop\DEV\train-asp.net_core_mvc\Utilities\obj\Debug\net7.0\Utilities.AssemblyInfoInputs.cache
+C:\Users\mbokri\OneDrive - Sopra Steria\Desktop\DEV\train-asp.net_core_mvc\Utilities\obj\Debug\net7.0\Utilities.AssemblyInfo.cs
+C:\Users\mbokri\OneDrive - Sopra Steria\Desktop\DEV\train-asp.net_core_mvc\Utilities\obj\Debug\net7.0\Utilities.csproj.CoreCompileInputs.cache
+C:\Users\mbokri\OneDrive - Sopra Steria\Desktop\DEV\train-asp.net_core_mvc\Utilities\obj\Debug\net7.0\Utilities.dll
+C:\Users\mbokri\OneDrive - Sopra Steria\Desktop\DEV\train-asp.net_core_mvc\Utilities\obj\Debug\net7.0\refint\Utilities.dll
+C:\Users\mbokri\OneDrive - Sopra Steria\Desktop\DEV\train-asp.net_core_mvc\Utilities\obj\Debug\net7.0\Utilities.pdb
+C:\Users\mbokri\OneDrive - Sopra Steria\Desktop\DEV\train-asp.net_core_mvc\Utilities\obj\Debug\net7.0\ref\Utilities.dll

@@ -36,3 +36,22 @@ C:\Users\malek\Desktop\train_aspnetcore\project\DAL\obj\Debug\net7.0\refint\DAL.
 C:\Users\malek\Desktop\train_aspnetcore\project\DAL\obj\Debug\net7.0\DAL.pdb
 C:\Users\malek\Desktop\train_aspnetcore\project\DAL\obj\Debug\net7.0\DAL.genruntimeconfig.cache
 C:\Users\malek\Desktop\train_aspnetcore\project\DAL\obj\Debug\net7.0\ref\DAL.dll
+C:\Users\mbokri\OneDrive - Sopra Steria\Desktop\DEV\train-asp.net_core_mvc\DAL\bin\Debug\net7.0\DAL.deps.json
+C:\Users\mbokri\OneDrive - Sopra Steria\Desktop\DEV\train-asp.net_core_mvc\DAL\bin\Debug\net7.0\DAL.runtimeconfig.json
+C:\Users\mbokri\OneDrive - Sopra Steria\Desktop\DEV\train-asp.net_core_mvc\DAL\bin\Debug\net7.0\DAL.dll
+C:\Users\mbokri\OneDrive - Sopra Steria\Desktop\DEV\train-asp.net_core_mvc\DAL\bin\Debug\net7.0\DAL.pdb
+C:\Users\mbokri\OneDrive - Sopra Steria\Desktop\DEV\train-asp.net_core_mvc\DAL\bin\Debug\net7.0\BOL.dll
+C:\Users\mbokri\OneDrive - Sopra Steria\Desktop\DEV\train-asp.net_core_mvc\DAL\bin\Debug\net7.0\Utilities.dll
+C:\Users\mbokri\OneDrive - Sopra Steria\Desktop\DEV\train-asp.net_core_mvc\DAL\bin\Debug\net7.0\BOL.pdb
+C:\Users\mbokri\OneDrive - Sopra Steria\Desktop\DEV\train-asp.net_core_mvc\DAL\bin\Debug\net7.0\Utilities.pdb
+C:\Users\mbokri\OneDrive - Sopra Steria\Desktop\DEV\train-asp.net_core_mvc\DAL\obj\Debug\net7.0\DAL.csproj.AssemblyReference.cache
+C:\Users\mbokri\OneDrive - Sopra Steria\Desktop\DEV\train-asp.net_core_mvc\DAL\obj\Debug\net7.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mbokri\OneDrive - Sopra Steria\Desktop\DEV\train-asp.net_core_mvc\DAL\obj\Debug\net7.0\DAL.AssemblyInfoInputs.cache
+C:\Users\mbokri\OneDrive - Sopra Steria\Desktop\DEV\train-asp.net_core_mvc\DAL\obj\Debug\net7.0\DAL.AssemblyInfo.cs
+C:\Users\mbokri\OneDrive - Sopra Steria\Desktop\DEV\train-asp.net_core_mvc\DAL\obj\Debug\net7.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\mbokri\OneDrive - Sopra Steria\Desktop\DEV\train-asp.net_core_mvc\DAL\obj\Debug\net7.0\DAL.csproj.CopyComplete
+C:\Users\mbokri\OneDrive - Sopra Steria\Desktop\DEV\train-asp.net_core_mvc\DAL\obj\Debug\net7.0\DAL.dll
+C:\Users\mbokri\OneDrive - Sopra Steria\Desktop\DEV\train-asp.net_core_mvc\DAL\obj\Debug\net7.0\refint\DAL.dll
+C:\Users\mbokri\OneDrive - Sopra Steria\Desktop\DEV\train-asp.net_core_mvc\DAL\obj\Debug\net7.0\DAL.pdb
+C:\Users\mbokri\OneDrive - Sopra Steria\Desktop\DEV\train-asp.net_core_mvc\DAL\obj\Debug\net7.0\DAL.genruntimeconfig.cache
+C:\Users\mbokri\OneDrive - Sopra Steria\Desktop\DEV\train-asp.net_core_mvc\DAL\obj\Debug\net7.0\ref\DAL.dll
