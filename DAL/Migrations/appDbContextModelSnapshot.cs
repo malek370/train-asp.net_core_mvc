@@ -25,10 +25,7 @@ namespace DAL.Migrations
             modelBuilder.Entity("BOL.Models.Commande", b =>
                 {
                     b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<int>("IdProduct")
                         .HasColumnType("int");

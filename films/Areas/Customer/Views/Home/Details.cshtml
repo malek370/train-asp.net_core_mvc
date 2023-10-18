@@ -2,7 +2,7 @@
 @{
 	var prod = ViewBag.prod;
 }
-<h1> Creat new product</h1>
+<h1> purchase a product</h1>
 <div class="col-7">
 	
 
@@ -16,6 +16,7 @@
 		<input type="text" id="price" name="price" value="@prod.Price" readonly/><br />
 		<label for="cat">Category</label>
 		<input type="text" id="cat" name="cat" value="@prod.CategoryId" readonly /><br /><br />
+		<img src="@prod.imgURL" class="img-thumbnail" />
 		<form method="post">
 			<input asp-for="@Model.IdProduct" value="@prod.Id" hidden readonly/>
 			<button type="submit" class="btn btn-primary">confirm purchase</button>

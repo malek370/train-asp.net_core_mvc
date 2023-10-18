@@ -106,8 +106,9 @@ namespace WebApplication2.Areas.Identity.Pages.Account
 
         public async Task OnGetAsync(string returnUrl = null)
         {
-            //this is needed to seed the roles table (not needed anymore)
-            /*if (!_roleManager.RoleExistsAsync(SD.Admin).GetAwaiter().GetResult())
+			//this is needed to seed the roles table (not needed anymore)
+
+			/*if (!_roleManager.RoleExistsAsync(SD.Admin).GetAwaiter().GetResult())
             {
                 _roleManager.CreateAsync(new IdentityRole(SD.Admin)).GetAwaiter().GetResult();
 				_roleManager.CreateAsync(new IdentityRole(SD.Customer)).GetAwaiter().GetResult();

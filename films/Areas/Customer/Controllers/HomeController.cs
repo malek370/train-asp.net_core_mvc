@@ -17,11 +17,13 @@ namespace WebApplication2.Areas.Customer.Controllers
         private readonly ILogger<HomeController> _logger;
         private readonly IProdRepository _prodRepository;
         private readonly IComRepo _comRepo;
-        public HomeController(ILogger<HomeController> logger, IProdRepository prodRepository, IComRepo comRepo)
+        private readonly UserManager<IdentityUser> _userManager;
+        public HomeController(ILogger<HomeController> logger, IProdRepository prodRepository, IComRepo comRepo ,UserManager<IdentityUser> userManager)
         {
             _logger = logger;
             _prodRepository = prodRepository;
             _comRepo = comRepo;
+            _userManager = userManager;
         }
 
         public IActionResult Index()
@@ -52,18 +54,18 @@ namespace WebApplication2.Areas.Customer.Controllers
             }
         }
         [HttpPost]
-		public IActionResult Details(Commande c)
+		public  IActionResult Details(Commande c)
 		{
-            string userId = "testing";//User.FindFirst(ClaimTypes.NameIdentifier).ToString();
-
-            c.IdUser = userId;
-            if (!User.Identity.IsAuthenticated)
+			string? userId = _userManager.GetUserId(User);
+			if (userId==null)
             {
                 return NotFound();
             }
             if(ModelState.IsValid)
             {
-                _comRepo.addCom(c);
+				
+				c.IdUser = userId;
+				_comRepo.addCom(c);
                 TempData["success"] = "product added";
                 
             }
