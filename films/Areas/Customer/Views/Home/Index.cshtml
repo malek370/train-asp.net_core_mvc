@@ -1,8 +1,35 @@
-﻿﻿@{
+﻿@model List<Product>
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
+@if (TempData["success"] != null)
+{
+    <div class="alert alert-success" role="alert">
+        @TempData["success"]
+    </div>
+}
+@if (TempData["fail"] != null)
+{
+    <div class="alert alert-danger" role="alert">
+        @TempData["fail"]
+    </div>
+}
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+<div class="col-11 text-center justify-content-center">
+    @foreach(Product item in Model)
+    {
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="@item.imgURL" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">@item.Name</h5>
+                <p class="card-text">@item.Description</p>
+                <h3>price: @item.Price</h3>
+                <a class="btn btn-primary" asp-area="Customer" asp-controller="Home" asp-action="Details" asp-route-id="@item.Id">details</a>
+            </div>
+        </div><br />
+    }
 </div>

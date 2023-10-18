@@ -26,6 +26,7 @@ namespace WebApplication2
             builder.Services.AddScoped<ICatRepository, CatRepositry>();
             builder.Services.AddScoped<IEmailSender,EmailSender>();
             builder.Services.AddScoped<IProdRepository, ProdRepository>();
+            builder.Services.AddScoped<IComRepo,ComRepository>();
             var app = builder.Build();
 
             //Configure the HTTP request pipeline.

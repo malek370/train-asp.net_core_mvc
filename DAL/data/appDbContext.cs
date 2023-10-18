@@ -12,7 +12,7 @@ namespace WebApplication2.DAL.data
         public appDbContext(DbContextOptions<appDbContext> options) : base(options) { }
         public DbSet<Category> categories { set; get; }
         public DbSet<Product> products { set; get; }
-
+        public DbSet<Commande> commandes { set; get; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

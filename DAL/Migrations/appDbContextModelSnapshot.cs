@@ -22,6 +22,27 @@ namespace DAL.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("BOL.Models.Commande", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("IdProduct")
+                        .HasColumnType("int");
+
+                    b.Property<string>("IdUser")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("IdProduct");
+
+                    b.ToTable("commandes");
+                });
+
             modelBuilder.Entity("BOL.Models.Product", b =>
                 {
                     b.Property<int>("Id")
@@ -311,6 +332,17 @@ namespace DAL.Migrations
                             Name = "adventure",
                             abb = "ADV"
                         });
+                });
+
+            modelBuilder.Entity("BOL.Models.Commande", b =>
+                {
+                    b.HasOne("BOL.Models.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("IdProduct")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
                 });
 
             modelBuilder.Entity("BOL.Models.Product", b =>
