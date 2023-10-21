@@ -24,8 +24,8 @@ namespace DAL.Migrations
 
             modelBuilder.Entity("BOL.Models.Commande", b =>
                 {
-                    b.Property<int>("Id")
-                        .HasColumnType("int");
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<int>("IdProduct")
                         .HasColumnType("int");

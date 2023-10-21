@@ -108,12 +108,12 @@ namespace WebApplication2.Areas.Identity.Pages.Account
         {
 			//this is needed to seed the roles table (not needed anymore)
 
-			/*if (!_roleManager.RoleExistsAsync(SD.Admin).GetAwaiter().GetResult())
+			if (!_roleManager.RoleExistsAsync(SD.Admin).GetAwaiter().GetResult())
             {
                 _roleManager.CreateAsync(new IdentityRole(SD.Admin)).GetAwaiter().GetResult();
 				_roleManager.CreateAsync(new IdentityRole(SD.Customer)).GetAwaiter().GetResult();
                 
-			}*/
+			}
 			ReturnUrl = returnUrl;
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
         }

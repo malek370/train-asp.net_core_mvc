@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "W9rjrE/Fdu3oJ8wtI43ayZlNXFdxBy1UR5KEvSftD0I=",
+  "Hash": "pPaHeEMb6Cr3QwtQQF+q8micBnQwwvGNUnQEMT50rj8=",
   "Source": "WebApplication2",
   "BasePath": "_content/WebApplication2",
   "Mode": "Default",
@@ -1103,6 +1103,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\malek\\Desktop\\train_aspnetcore\\project\\films\\wwwroot\\img\\prod\\0493913e-d2bf-4479-8174-3b1bc9d5873a.jpg",
+      "SourceId": "WebApplication2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\malek\\Desktop\\train_aspnetcore\\project\\films\\wwwroot\\",
+      "BasePath": "_content/WebApplication2",
+      "RelativePath": "img/prod/0493913e-d2bf-4479-8174-3b1bc9d5873a.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\prod\\0493913e-d2bf-4479-8174-3b1bc9d5873a.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\malek\\Desktop\\train_aspnetcore\\project\\films\\wwwroot\\img\\prod\\154a33d3-7ae6-4ff6-b420-3519b9dc6e77.jpg",
+      "SourceId": "WebApplication2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\malek\\Desktop\\train_aspnetcore\\project\\films\\wwwroot\\",
+      "BasePath": "_content/WebApplication2",
+      "RelativePath": "img/prod/154a33d3-7ae6-4ff6-b420-3519b9dc6e77.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\prod\\154a33d3-7ae6-4ff6-b420-3519b9dc6e77.jpg"
     },
     {
       "Identity": "C:\\Users\\malek\\Desktop\\train_aspnetcore\\project\\films\\wwwroot\\img\\prod\\4bf6182a-6eb5-4bb8-aa91-994521e41bb1.jpg",

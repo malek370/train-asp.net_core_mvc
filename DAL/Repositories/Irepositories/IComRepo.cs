@@ -11,5 +11,6 @@ namespace DAL.Repositories.Irepositories
     {
         public void addCom(Commande c);
         public IEnumerable<Commande> getAll();
+        public IEnumerable<Commande> getCom(string id);
     }
 }

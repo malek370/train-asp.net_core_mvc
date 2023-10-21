@@ -72,5 +72,18 @@ namespace WebApplication2.Areas.Customer.Controllers
             else { TempData["fail"] = "error happened"; }
             return RedirectToAction("Index");
 		}
+
+		public IActionResult Panier()
+		{
+            string? userId = _userManager.GetUserId(User);
+            if(userId==null) { return NotFound(); }
+			var coms = _comRepo.getCom(userId);
+            
+            List<Product> products = new List<Product>();
+            foreach (var c in coms) {
+                products.Add(_prodRepository.Get(c.IdProduct));
+            }
+			return View(products);
+		}
 	}
 }

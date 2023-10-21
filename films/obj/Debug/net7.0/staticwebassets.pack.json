@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\malek\\Desktop\\train_aspnetcore\\project\\films\\wwwroot\\img\\prod\\0493913e-d2bf-4479-8174-3b1bc9d5873a.jpg",
+      "PackagePath": "staticwebassets\\img\\prod\\0493913e-d2bf-4479-8174-3b1bc9d5873a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\malek\\Desktop\\train_aspnetcore\\project\\films\\wwwroot\\img\\prod\\154a33d3-7ae6-4ff6-b420-3519b9dc6e77.jpg",
+      "PackagePath": "staticwebassets\\img\\prod\\154a33d3-7ae6-4ff6-b420-3519b9dc6e77.jpg"
+    },
+    {
       "Id": "C:\\Users\\malek\\Desktop\\train_aspnetcore\\project\\films\\wwwroot\\img\\prod\\4bf6182a-6eb5-4bb8-aa91-994521e41bb1.jpg",
       "PackagePath": "staticwebassets\\img\\prod\\4bf6182a-6eb5-4bb8-aa91-994521e41bb1.jpg"
     },

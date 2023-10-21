@@ -19,6 +19,7 @@ namespace DAL.Repositories
 
         public void addCom(Commande commande)
         {
+            commande.Id = Guid.NewGuid().ToString();
             _appDbContext.commandes.Add(commande);
             _appDbContext.SaveChanges();
         }
@@ -26,5 +27,10 @@ namespace DAL.Repositories
         {
             return _appDbContext.commandes.ToList();
         }
-    }
+
+		public IEnumerable<Commande> getCom(string id)
+		{
+			return _appDbContext.commandes.Where(c => c.IdUser == id).ToList();
+		}
+	}
 }

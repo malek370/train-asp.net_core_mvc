@@ -11,8 +11,8 @@ namespace BOL.Models
     public class Commande
     {
         [Required]
-		[DatabaseGenerated(DatabaseGeneratedOption.None)]
-		public int Id { get; set; }
+		[Key]
+		public string Id { get; set; }
         
         public string? IdUser { get; set; }
         [Required]
