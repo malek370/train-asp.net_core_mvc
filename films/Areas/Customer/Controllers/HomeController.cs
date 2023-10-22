@@ -73,6 +73,7 @@ namespace WebApplication2.Areas.Customer.Controllers
             return RedirectToAction("Index");
 		}
 
+        
 		public IActionResult Panier()
 		{
             string? userId = _userManager.GetUserId(User);
@@ -83,6 +84,7 @@ namespace WebApplication2.Areas.Customer.Controllers
             foreach (var c in coms) {
                 products.Add(_prodRepository.Get(c.IdProduct));
             }
+            
 			return View(products);
 		}
 	}
